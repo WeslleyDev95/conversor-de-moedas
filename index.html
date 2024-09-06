@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app.js" defer></script>
+    <title>ws-conversor-de-moedas</title>
+    <link rel="icon" href="img/dolar-icone.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+        <div class="imagem-moeda">
+            <img src="img/dinheiro.jpg" alt="imagem de dinheiro">
+        </div>  
+        <div class="form">
+            <form action="#">
+                <div class="header">
+                    <div class="titulo">
+                        <h1>WS-CONVERSOR DE MOEDAS</h1>
+                    </div>
+                    <div class="img-logo">
+                        <a href="#"><img src="img/dolar-icone.ico" alt="logo"></a>
+                    </div>
+                </div>
+
+                <div class="grupo-inputs">
+                    <div class="input-box">
+                        <label for="VDolar">Valor em Real </label>
+                        <input id="VDolar"  type="number"  name="VDolar"  placeholder=" USD - Dólar" >
+                        <button onclick="converterDolar()" class="botao-cv"><a href="#">Converter</a></button>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="VEuro">Valor em Real </label>
+                        <input id="VEuro"  type="number"  name="VEuro"  placeholder=" EUR - Euro" >
+                        <button onclick="converterEuro()" class="botao-cv"><a href="#">Converter</a></button>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="VLibra">Valor em Real </label>
+                        <input id="VLibra"  type="number"  name="VLibra"  placeholder=" GBP - Libra" >
+                        <button onclick="converterLibra()" class="botao-cv"><a href="#">Converter</a></button>
+                    </div>
+                </div>
+
+                <div class="rodapé">
+                    <div class="rodapé-titulo">
+                        <h6>Sobre o Conversor </h6>
+                    </div>
+                    <div class="rodapé-texto">
+                        <p>Os valores convertidos em, Dólar Euro e Libra, São referentes a cotação do dia 03/09/2024 .</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+  </div>
+</body>
+</html>
